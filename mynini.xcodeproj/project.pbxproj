@@ -6,8 +6,13 @@
 	objectVersion = 90;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C777DA8F3067808000C92F96 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C777DA8E3067808000C92F96 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* mynini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mynini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C777DA8E3067808000C92F96 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -44,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				000000000000000000000010 /* mynini */,
+				C777DA8E3067808000C92F96 /* README.md */,
 				000000000000000000000020 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,6 +121,7 @@
 		000000000000000140000000 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				C777DA8F3067808000C92F96 /* README.md in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
